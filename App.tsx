@@ -1,13 +1,9 @@
 import React from 'react';
-import {StyleSheet, Text, View, ImageBackground} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import {StatusBar} from 'react-native/Libraries/Components/StatusBar/StatusBar';
-import Card from './Components/CarItems/Card';
+import Carlist from './Components/CarList/Carlist';
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Card />
-    </View>
-  );
+  return <View style={styles.container}>{<Carlist />}</View>;
 }
 
 const styles = StyleSheet.create({

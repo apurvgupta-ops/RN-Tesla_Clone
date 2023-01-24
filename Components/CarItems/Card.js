@@ -3,16 +3,14 @@ import {View, Text, ImageBackground} from 'react-native';
 import styles from './Styles';
 import Button from '../Buttons';
 
-const Card = () => {
+const Card = props => {
+  const {name, tagline, image} = props.car;
   return (
     <View style={styles.subContainer}>
-      <ImageBackground
-        source={require('../../Assets/images/ModelX.jpeg')}
-        style={styles.image}
-      />
+      <ImageBackground source={image} style={styles.image} />
       <View style={styles.titles}>
-        <Text style={styles.title}>Model S</Text>
-        <Text style={styles.price}>Starting at $70,000</Text>
+        <Text style={styles.title}>{name}</Text>
+        <Text style={styles.price}>{tagline}</Text>
       </View>
       <View style={styles.buttonContainer}>
         <Button content="Custom Order" type="primary" />

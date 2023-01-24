@@ -1,8 +1,8 @@
-import {StyleSheet} from 'react-native';
+import {Dimensions, StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
   subContainer: {
     width: '100%',
-    height: '100%',
+    height: Dimensions.get('window').height,
   },
   titles: {
     marginTop: '20%',
