@@ -6,19 +6,19 @@ export default [
   },
   {
     name: 'Model 3',
-    tagline: 'Order Online for',
+    tagline: 'Starting at $70,420',
     taglineCTA: 'Touchless Delivery',
     image: require('../../Assets/images/ModelX.jpeg'),
   },
   {
     name: 'Model X',
-    tagline: 'Order Online for',
+    tagline: 'Starting at $59,420',
     taglineCTA: 'Touchless Delivery',
     image: require('../../Assets/images/ModelS.jpeg'),
   },
   {
     name: 'Model Y',
-    tagline: 'Order Online for',
+    tagline: 'Starting at $79,420',
     taglineCTA: 'Touchless Delivery',
     image: require('../../Assets/images/ModelY.jpeg'),
   },
